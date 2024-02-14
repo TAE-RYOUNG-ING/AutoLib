@@ -1,6 +1,8 @@
 /**
  * @class
  * @classdesc 강아지와 고양이를 설명하는 클래스
+ * @example 
+ * new LingLing(dog, cat)
  */
 class LingLing {
     /**
@@ -21,6 +23,11 @@ class LingLing {
         this.dog = dog;
     }
 
+    /**
+     * @static 
+     * @description 언제든 귀여운 갱얼쥐를 부를 수 있따
+     * @example LingLing.printDog();
+     */
     static printDog() {
         console.log(this.dog);
     }
