@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>LingLing.js - Documentation</title>
+    <title>function.js - Documentation</title>
     
     
     <script src="scripts/prettify/prettify.js"></script>
@@ -35,7 +35,7 @@
 
 <div id="main">
     
-    <h1 class="page-title">LingLing.js</h1>
+    <h1 class="page-title">function.js</h1>
     
 
     
@@ -46,38 +46,14 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @class
- * @classdesc 강아지와 고양이를 설명하는 클래스
- * @example 
- * new LingLing(dog, cat)
- */
-class LingLing {
-    /**
-     * 
-     * @param {string} dog 갱얼쥐~~ 
-     * @param {string} cat 고영희입니다~
-     */
-    constructor(dog, cat) {
-        this.dog = dog;
-        this.cat = cat;
-    }
-
-    getDog() {
-        return this.dog;
-    }
-
-    setDog(dog) {
-        this.dog = dog;
-    }
-
-    /**
-     * @static 
-     * @description 언제든 귀여운 갱얼쥐를 부를 수 있따
-     * @example LingLing.printDog();
-     */
-    static printDog() {
-        console.log(this.dog);
-    }
+ * @description 간단한 더하기 연산 함수
+ * @param {number} a 첫번째 숫자
+ * @param {number} b 두번째 숫자
+ * @returns {number} a+b 한 거 ㅋ
+ */ 
+function plus(a, b) {
+    
+    return a+b;
 }</code></pre>
         </article>
     </section>
